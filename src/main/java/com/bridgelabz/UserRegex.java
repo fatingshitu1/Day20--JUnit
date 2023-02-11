@@ -9,5 +9,11 @@ public class UserRegex {
         Matcher matcher = pattern.matcher(firstname);
         return matcher.matches();
     }
+
+    public static boolean validatelastName(String lastname) {
+        Pattern pattern = Pattern.compile("[A-Z][a-z]{2,}$");
+        Matcher matcher = pattern.matcher(lastname);
+        return matcher.matches();
+    }
 }
 

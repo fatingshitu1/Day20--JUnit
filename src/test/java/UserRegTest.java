@@ -10,6 +10,11 @@ public class UserRegTest {
         boolean validName = UserRegex.validatefirstName("Shital");
         Assertions.assertEquals(true, validName);
     }
+    @Test
+    public void whenGivenValidLastNameShouldReturnTrue(){
+        boolean validLastName = UserRegex.validatelastName("Fating");
+        Assertions.assertEquals(true, validLastName);
+    }
 }
 
 
