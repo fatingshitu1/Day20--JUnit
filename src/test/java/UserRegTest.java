@@ -1,11 +1,16 @@
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import com.bridgelabz.UserRegex;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+
 
 public class UserRegTest {
-
-    public boolean validateFirstName(String firstName) {
-        Pattern pattern = Pattern.compile("[A-Z][a-z]{2,}$");
-        Matcher matcher = pattern.matcher(firstName);
-        return matcher.matches();
+    @Test
+    public void whenGivenValidFirstNameShouldReturnTrue(){
+        boolean validName = UserRegex.validatefirstName("Shital");
+        Assertions.assertEquals(true, validName);
     }
 }
+
+
+
