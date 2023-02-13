@@ -27,11 +27,11 @@ public class UserRegex {
         Matcher matcher = pattern.matcher(mobilenumber);
         return matcher.matches();
     }
-//
-//    public static boolean validatePassword(String password) {
-//            Pattern pattern = Pattern.compile("^[a-z]{5,}[@]{3}$");
-//            Matcher matcher = pattern.matcher(password);
-//            return matcher.matches();
-//    }
+
+   public static boolean validatePassword(String password) {
+        Pattern pattern = Pattern.compile("^[a-z]{0,}+@[1-9]{3}$");
+        Matcher matcher = pattern.matcher(password);
+        return matcher.matches();
+   }
 }
 
