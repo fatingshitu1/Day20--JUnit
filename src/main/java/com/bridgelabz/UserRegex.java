@@ -15,5 +15,23 @@ public class UserRegex {
         Matcher matcher = pattern.matcher(lastname);
         return matcher.matches();
     }
+
+    public static boolean validateemail(String email) {
+        Pattern pattern = Pattern.compile("^[A-Za-z]{0,}+@[a-z]{5}[.]*[co][a-z]*$");
+        Matcher matcher = pattern.matcher(email);
+        return matcher.matches();
+    }
+
+//    public static boolean validateMobileNumber(String mobilenumber) {
+//        Pattern pattern = Pattern.compile("^[0-9]+[ ][1-9]{1}[0-9]{9}$");
+//        Matcher matcher = pattern.matcher(mobilenumber);
+//        return matcher.matches();
+//    }
+//
+//    public static boolean validatePassword(String password) {
+//            Pattern pattern = Pattern.compile("^[a-z]{5,}[@]{3}$");
+//            Matcher matcher = pattern.matcher(password);
+//            return matcher.matches();
+//    }
 }
 
