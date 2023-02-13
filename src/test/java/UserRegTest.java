@@ -18,11 +18,11 @@ public class UserRegTest {
         boolean validEmail = UserRegex.validateemail("Shitalfating@gmail.com");
         Assertions.assertEquals(true, validEmail);
   }
-//    @Test
-//    public void whenGivenValidMobileNumberShouldReturnTrue() {
-//        boolean validateMobileNumber = UserRegex.validateMobileNumber("92 84774178");
-//        Assertions.assertEquals(true, validateMobileNumber);
-//    }
+    @Test
+    public void whenGivenValidMobileNumberShouldReturnTrue() {
+        boolean validateMobileNumber = UserRegex.validateMobileNumber("92 84774178");
+        Assertions.assertEquals(true, validateMobileNumber);
+    }
 //
 //    @Test
 //    public void whenGivenValidPasswordShouldReturnTrue() {
