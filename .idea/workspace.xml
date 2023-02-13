@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fb8e2c3-abc0-4405-9a9b-310b0a612806" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserRegTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserRegTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="3fb8e2c3-abc0-4405-9a9b-310b0a612806" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
