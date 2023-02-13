@@ -23,12 +23,12 @@ public class UserRegTest {
         boolean validateMobileNumber = UserRegex.validateMobileNumber("92 84774178");
         Assertions.assertEquals(true, validateMobileNumber);
     }
-//
-//    @Test
-//    public void whenGivenValidPasswordShouldReturnTrue() {
-//        boolean validatePassword = UserRegex.validatePassword("Shital@123");
-//        Assertions.assertEquals(true, validatePassword);
-//    }
+
+    @Test
+    public void whenGivenValidPasswordShouldReturnTrue() {
+      boolean validatePassword = UserRegex.validatePassword("shital@123");
+      Assertions.assertEquals(true, validatePassword);
+    }
 }
 
 
